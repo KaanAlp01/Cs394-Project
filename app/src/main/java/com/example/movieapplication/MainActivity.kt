@@ -22,7 +22,7 @@ class MainActivity : ComponentActivity() {
             super.onCreate(savedInstanceState)
             setContentView(R.layout.activity_main)
 
-            val users = DataSource(this).loadMovies()
+            val movies = DataSource(this).loadMovies()
 
             val recyclerView: RecyclerView = findViewById(R.id.recyclerView)
             recyclerView.adapter = ItemAdapter(users)
