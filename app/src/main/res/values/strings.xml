@@ -1,3 +1,123 @@
 <resources>
     <string name="app_name">MovieApplication</string>
+    <string-array name= "movie_name_array">
+        <item>Donnie Darko</item>
+        <item>Bullet Train</item>
+        <item>The Nightmare Before Christmas</item>
+        <item>Wreck-It Ralph</item>
+        <item>Blade</item>
+        <item>The Princess Bride</item>
+        <item>Smile</item>
+        <item>Prisoners</item>
+        <item>Tenet</item>
+        <item>Waterloo</item>
+        <item>Nice Guys</item>
+        <item>Talk To Me</item>
+        <item>Predestination</item>
+        <item>Treasure Planet</item>
+        <item>Iron Man 3</item>
+        <item>The Autopsy of Jane Doe</item>
+        <item>Space Jam</item>
+        <item>Coco</item>
+    </string-array>
+    <string-array name= "movie_description_array">
+        <item>Donnie Darko, an awkward teenager, befriends Frank, a figure in a bunny costume only he can see, who informs Donnie that the world will end in 28 days, 6 hours, 42 minutes, and 12 seconds.</item>
+        <item>Ladybug, a professional assassin, is assigned to retrieve a briefcase from a bullet train. Soon, he finds himself battling many other killers who board the same train but with a different objective.</item>
+        <item>Jack Skellington, a being from Halloween Town, finds Christmas Town and is instantly enchanted. The situation becomes riveting when his obsession with Christmas leads him to abduct Santa Claus.</item>
+        <item>Ralph is tired of playing the role of a bad guy and embarks on a journey to become a video game hero. But Ralph accidentally lets loose a deadly enemy that threatens the entire arcade.</item>
+        <item>Deacon Frost, a vampire, kills the elders of the underground vampiric society in order to gain control over his kind. To cement his powers, he needs the blood of Blade, a half-human vampire hunter.</item>
+        <item>Buttercup, a princess, is madly in love with a farm boy, Westley. Unfortunately, things take a turn in their lives when Westley goes out in search of employment and gets attacked by a pirate.</item>
+        <item>After witnessing a bizarre, traumatic incident involving a patient, Dr. Rose Cotter starts experiencing frightening occurrences that she cant explain, As an overwhelming terror begins taking over her life. Rose must confront her troubling past in order to survive and escape her horrifying new reality.</item>
+        <item>When the police take time to find Keller Dovers daughter and her friend, he decides to go on a search himself. His desperation leads him closer to finding the truth and also jeopardises his own life.</item>
+        <item>When a few objects that can be manipulated and used as weapons in the future fall into the wrong hands, a CIA operative, known as the Protagonist, must save the world.</item>
+        <item>On the verge of losing everything he has worked to achieve, Napoleon Bonaparte meets the British for a final battle at Waterloo.On the verge of losing everything he has worked to achieve, Napoleon Bonaparte meets the British for a final battle at Waterloo.</item>
+        <item>Amelia, a girl in hiding, hires Healy to put March, a detective seeking her, in his place. After two hitmen try to get Healy to reveal her whereabouts, he concernedly pairs with March to find her.</item>
+        <item>When a group of friends discover how to conjure spirits with an embalmed hand, they become hooked on the new thrill and high-stakes party game - until one of them goes too far and unleashes terrifying supernatural forces.</item>
+        <item>As his last assignment, a temporal agent is tasked to travel back in time and prevent a bomb attack in New York in 1975. The hunt, however, turns out to be beyond the bounds of possibility.</item>
+        <item>A restless teen journeys across the universe as a cabin boy aboard a spaceship. Later, he discovers that a trusted friend is actually a scheming pirate with mutiny on his mind.</item>
+        <item>Suffering from PTSD, Tony Stark encounters a formidable foe called the Mandarin. When he watches his world fall apart, he must rely on his own instincts as he embarks on a journey of retribution.</item>
+        <item>Two coroners start an autopsy of an unidentified girl to investigate the cause of her death. However, as they get closer to finding answers, bizarre events take place.</item>
+        <item>After Michael Jordans retirement, he is abducted by Bugs Bunny from the Looney Tunes group and is asked to play a match to defeat the Nerdlucks, a criminal alien group led by Swackhammer.</item>
+        <item>Despite his familys generations-old ban on music, young Miguel dreams of becoming an accomplished musician like his idol Ernesto de la Cruz. Desperate to prove his talent, Miguel finds himself in the stunning and colorful Land of the Dead. After meeting a charming trickster named Héctor, the two ne… MORE</item>
+    </string-array>
+    <string-array name= "movie_posterURL_array">
+        <item>https://m.media-amazon.com/images/M/MV5BZjZlZDlkYTktMmU1My00ZDBiLWFlNjEtYTBhNjVhOTM4ZjJjXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg</item>
+        <item>https://www.sonypictures.com/sites/default/files/styles/max_560x840/public/title-key-art/bullettrain_onesheet_1400x2100_v4.jpg?itok=khOUNLFM</item>
+        <item>https://m.media-amazon.com/images/M/MV5BNWE4OTNiM2ItMjY4Ni00ZTViLWFiZmEtZGEyNGY2ZmNlMzIyXkEyXkFqcGdeQXVyMDU5NDcxNw@@._V1_.jpg</item>
+        <item>https://m.media-amazon.com/images/M/MV5BNzMxNTExOTkyMF5BMl5BanBnXkFtZTcwMzEyNDc0OA@@._V1_.jpg</item>
+        <item>https://m.media-amazon.com/images/M/MV5BYTU1ZTI0YjUtZGRlMS00MDU1LWFmZmItZWRiYTg5NTExMmRjXkEyXkFqcGdeQXVyMTUzMDg3MTQw._V1_FMjpg_UX1000_.jpg</item>
+        <item>https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10305_v_v10_ad.jpg</item>
+        <item>https://m.media-amazon.com/images/M/MV5BYzczMDk1MDktMTgxNC00Zjc3LWI2YzUtZWRhNmRkZDIzZDQyXkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_.jpg</item>
+        <item>https://m.media-amazon.com/images/M/MV5BMTg0NTIzMjQ1NV5BMl5BanBnXkFtZTcwNDc3MzM5OQ@@._V1_FMjpg_UX1000_.jpg</item>
+        <item>https://m.media-amazon.com/images/M/MV5BMzU3YWYwNTQtZTdiMC00NjY5LTlmMTMtZDFlYTEyODBjMTk5XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg</item>
+        <item>https://m.media-amazon.com/images/M/MV5BNGQxYzM1ZWUtYjdlMS00M2EyLTg1MmUtNTFmZTE3NGVkMTgyXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg</item>
+        <item>https://m.media-amazon.com/images/M/MV5BODNlNmU4MGItMzQwZi00NGQyLWEyZWItYjFkNmI0NWI4NjBhXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg</item>
+        <item>https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/S/pv-target-images/9fb98973d24ade02a7cffb23d002087f6abe3a8e8caa514995cdfcb95fb7f40d.jpg</item>
+        <item>https://m.media-amazon.com/images/M/MV5BY2NhNTc1OWYtODY0Zi00YjU1LTljNGItNTAzZjY5MjJlNDdmXkEyXkFqcGdeQXVyMTU0NTE4MTkz._V1_FMjpg_UX1000_.jpg</item>
+        <item>https://m.media-amazon.com/images/M/MV5BNGI0N2EzZDktNDY3OS00NWFmLTgxZjEtMTc1OTNlMzQxNDZkXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg</item>
+        <item>https://m.media-amazon.com/images/M/MV5BMjE5MzcyNjk1M15BMl5BanBnXkFtZTcwMjQ4MjcxOQ@@._V1_.jpg</item>
+        <item>https://m.media-amazon.com/images/M/MV5BOWVmZTM1OGYtZDE5Zi00ZjU4LTliODQtNjI1Y2E4Y2I1YTlmXkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_.jpg</item>
+        <item>https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p18721_p_v10_ad.jpg</item>
+        <item>https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_.jpg</item>
+    </string-array>
+    <string-array name= "movie_runtime_array">
+        <item>1 Hours 53 Minutes</item>
+        <item>2 Hours 02 Minutes</item>
+        <item>1 Hour 16 Minutes</item>
+        <item>1 Hour 41 Minutes</item>
+        <item>2 Hours 00 Minutes</item>
+        <item>1 Hour 38 Minutes</item>
+        <item>1 Hours 55 Minutes</item>
+        <item>2 Hours 33 Minutes</item>
+        <item>2 Hours 20 Minutes</item>
+        <item>2 Hours 14 Minutes</item>
+        <item>1 Hour 56 Minutes</item>
+        <item>1 Hour 35 Minutes</item>
+        <item>1 Hour 37 Minutes</item>
+        <item>1 Hour 35 Minutes</item>
+        <item>2 Hours 10 Minutes</item>
+        <item>1 Hour 26 Minutes</item>
+        <item>1 Hour 28 Minutes</item>
+        <item>1 Hour 45 Minutes</item>
+    </string-array>
+    <string-array name= "movie_releaseDate_array">
+        <item>June 13, 2001</item>
+        <item>August 05, 2022</item>
+        <item>October 29, 1993 </item>
+        <item>February 15, 2012</item>
+        <item>February 12, 1998</item>
+        <item>October 9, 1987</item>
+        <item>September 30, 2022</item>
+        <item>December 27, 2013</item>
+        <item>August 26, 2020</item>
+        <item>October 29, 1970</item>
+        <item>May 20, 2016</item>
+        <item>July 27, 2023</item>
+        <item>August 28, 2014</item>
+        <item>January 24, 2003</item>
+        <item>May 3, 2013</item>
+        <item>December 21, 2016</item>
+        <item>January 17, 1997</item>
+        <item>November 22, 2017</item>
+    </string-array>
+    <string-array name= "movie_rating_array">
+        <item>Imdb Score: 8.5/10</item>
+        <item>Imdb Score: 7.3/10</item>
+        <item>Imdb Score: 7.9/10</item>
+        <item>Imdb Score: 7.7/10</item>
+        <item>Imdb Score: 7.1/10</item>
+        <item>Imdb Score: 8.0/10</item>
+        <item>Imdb Score: 6.5/10</item>
+        <item>Imdb Score: 8.1/10</item>
+        <item>Imdb Score: 7.3/10</item>
+        <item>Imdb Score: 7.3/10</item>
+        <item>Imdb Score: 7.4/10</item>
+        <item>Imdb Score: 7.1/10</item>
+        <item>Imdb Score: 7.4/10</item>
+        <item>Imdb Score: 7.2/10</item>
+        <item>Imdb Score: 7.1/10</item>
+        <item>Imdb Score: 6.8/10</item>
+        <item>Imdb Score: 6.5/10</item>
+        <item>Imdb Score: 8.4/10</item>
+    </string-array>
 </resources>
